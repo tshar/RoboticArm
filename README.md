@@ -3,10 +3,6 @@ csl: apa.csl
 bibliography: RPiCitations.bib
 ---
 
-| **csl** | **bibliography** |
-|---------|------------------|
-| apa.csl | RPiCitations.bib |
-
 F.I.M.P. Project
 ================
 
