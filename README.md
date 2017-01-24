@@ -249,6 +249,8 @@ features of the application. The main developers of this application will be
 Hennok Tadesse with help from Tanav Sharma for integrating the database into the
 application.
 
+(Developed by Hennok Tadesse)
+
  
 
 ### Database Breakdown
@@ -339,6 +341,8 @@ these sensors were used in the original Nintendo Power Glove.
 
 The resistance of the flex sensor changes when the metal pads are on the outside
 of the bend.
+
+(Developed by Alay Lad)
 
  
 
