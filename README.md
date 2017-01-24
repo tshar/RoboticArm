@@ -16,15 +16,6 @@ Alay Lad
 
  
 
-Table of Contents
-=================
-
-1.  [​Proposal](#this-file)
-
-2.  References
-
- 
-
 January 16, 2016
 
 *Proposal for the development of Project Name*
@@ -196,5 +187,60 @@ integrate the knowledge and skills developed in our program to create a
 collaborative IoT capstone project demonstrating my ability to learn how to
 support projects such as the initiative described by [2]. I request approval of
 this project.
+
+ 
+
+Table of Contents
+=================
+
+[1.
+Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#1-introduction)
+
+[2. Software Requirements Specifications
+(SRS)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#2-software-requirements-specifications-srs)
+
+[2.1 Technology
+Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#21-technology-introduction)
+
+2.1.1 Purpose
+
+2.1.2 Product Overview
+
+2.1.3 Targeted Audience Group
+
+[2.2 Product
+Information](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#22-product-information)
+
+2.2.1 Main Functionality
+
+2.2.2 Extra Requirements
+
+2.2.3 Best Performance
+
+[2.3 Overall
+Description](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#23-overall-description)
+
+2.3.1 Database
+
+2.3.2 Hardware
+
+2.3.3 Mobile Application
+
+[2.4 Future
+Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-future-considerations)
+
+2.4.1 Operating Environment
+
+2.4.2 Safety Considerations
+
+2.4.3 Future Additions
+
+[3.
+Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusionshttps://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-recommendations)
+
+[4.
+References](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-progress-reports)
+
+ 
 
 **References**
