@@ -25,7 +25,7 @@ Table of Contents
 
 3.  Introduction
 
-4.  Body
+4.  Content
 
 5.  Conclusion
 
@@ -221,8 +221,8 @@ Introduction
 
  
 
-Body
-----
+Content
+-------
 
  
 
