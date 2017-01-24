@@ -16,13 +16,34 @@ Alay Lad
 
  
 
+Table of Contents
+=================
+
+1.  Proposal
+
+2.  List of Illustrations or Diagrams
+
+3.  Introduction
+
+4.  Body
+
+5.  Conclusion
+
+6.  Recommendation
+
+7.  Appendices
+
+8.  Reference
+
+ 
+
 January 16, 2016
 
 *Proposal for the development of Project Name*
 
 Prepared by Tanav, Alay, and Hennok  
 *Computer Engineering Technology Student*  
-Username.github.io
+github.com/henok129/RoboticArm
 
 **Executive Summary**
 
@@ -190,57 +211,149 @@ this project.
 
  
 
-Table of Contents
-=================
+List of Illustrations or Diagrams
+---------------------------------
 
-[1.
-Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#1-introduction)
+ 
 
-[2. Software Requirements Specifications
-(SRS)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#2-software-requirements-specifications-srs)
+Introduction
+------------
 
-[2.1 Technology
-Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#21-technology-introduction)
+ 
 
-2.1.1 Purpose
+Body
+----
 
-2.1.2 Product Overview
+ 
 
-2.1.3 Targeted Audience Group
+### Application Breakdown
 
-[2.2 Product
-Information](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#22-product-information)
+The overall concept of the mobile app for the project is to control the four
+servo motors of the robotic arm and keep logs on the user’s actions. The first
+screen of the app will be the login screen which will require an email and
+password to create and login to an account. The accounts are used to hold
+individual logs of the user’s controller usage. When logged in, the user is
+presented with two option; controller and user logs. The first option of the
+application is to control the motor with four sliders that will control the arms
+movements. When the application first begins, the sliders will be set to a
+default (centered) position. When exiting the application, the robotic arm will
+return to its default position after all created movements. During the
+controller screen, the application will have logs of the user’s usage and will
+be presented in the user log screen. The user logs will contain the log of all
+the users usage of the app based on the users in the database. In conclusion,
+the login screen, controller screen, and user logs are the three key features of
+the application. The key developer of this application will be Hennok Tadesse
+with some help from Tanav Sharma.
 
-2.2.1 Main Functionality
+ 
 
-2.2.2 Extra Requirements
+### Database Breakdown
 
-2.2.3 Best Performance
+There will be a Firebase Database; a service provided by google. When creating
+an account with Google Firebase, a file with the name of “google-services.json”
+is downloaded and needs to be imported into application project. This file is
+in-charge of the backend process of the database. This database will be
+responsible for holding user account information, for example user credentials
+for the login/register function. This database may contain many tables under the
+user account as the user will able to create multiple logs with in a day and
+each log will be stored in a table. The breakdown of the fields is stated below.
 
-[2.3 Overall
-Description](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#23-overall-description)
+**1.       User Account**
 
-2.3.1 Database
+a.       This table is generated when the user registers
 
-2.3.2 Hardware
+b.      It holds the users email address as well as the hash password entered
 
-2.3.3 Mobile Application
+ 
 
-[2.4 Future
-Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-future-considerations)
+When registering, if an email address already exists on the database, it will
+advise the user “User already exists”. When logging in, if the user enters wrong
+credentials, it will advise the user “Wrong Credentials”
 
-2.4.1 Operating Environment
+ 
 
-2.4.2 Safety Considerations
+**2.       Logs**
 
-2.4.3 Future Additions
+a.       This table is generated under the users account and is linked with user
+unique id.
 
-[3.
-Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusionshttps://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-recommendations)
+b.      This table is generated when user launches the controller function in
+the app, and is asked if they would like to start a log.
 
-[4.
-References](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-progress-reports)
+c.       It creates the table with title of the current date and time on the
+system and stores the motors x, y coordinates for each of the four motor.
+
+d.      User will able to create multiple logs with in a day. 
+
+The purpose of the database is mainly to allow the user to create a personal
+account, and to allow other users to access logs from other users. Creating a
+table with the date and time, under the user’s unique id, will inform others
+whose logs are being accessed from which date and time. The administrator may
+choose to restrict certain logs to certain user and/or departments.
+
+These logs can be used for research/development reasons only, which is stated in
+the Terms and Condition document provided with the product and also displayed to
+the user when launching the app.   
+
+(Developed by Tanav Sharma)
+
+ 
+
+### Hardware Breakdown
+
+**MeArm**
+
+The MeArm project aims to bring a simple Robot Arm well within the reach and
+budget of the average educator, student, parent or child. The design brief we
+set out with was to build a full robot arm kit with standard low cost screws,
+low cost servo motors and using less than 300 x 200mm (\~A4) of acrylic  
+  
+
+
+**MCP3008**
+
+In order to measure the X and Y voltages I decided to use an MCP3008 10 bit
+Analogue to Digital Converter. These devices are cheap, easy to setup and allow
+8 analogue inputs to be read by the Pi using its SPI interface.
+
+ 
+
+**Adafruit 16-Channel PWM**
+
+The Raspberry Pi is a wonderful little computer, but one thing it isn't very
+good at is controlling DC Servo Motors - these motors need very specific and
+repetitive timing pulses to set the position. Instead of asking the Pi Linux
+kernel to send these signals, pop on this handy HAT! It adds the capability to
+control 16 Servos with perfect timing. It can also do PWM up to 1.6 KHz with 12
+bit precision, all completely free-running.
+
+ 
+
+**Flex Sensor 4.5**
+
+A simple flex sensor 4.5" in length. As the sensor is flexed, the resistance
+across the sensor increases. Patented technology by Spectra Symbol - they claim
+these sensors were used in the original Nintendo Power Glove.
+
+The resistance of the flex sensor changes when the metal pads are on the outside
+of the bend.
+
+ 
+
+Conclusion
+----------
+
+ 
+
+Recommendation
+--------------
+
+ 
+
+Appendices
+----------
 
  
 
 **References**
+--------------
