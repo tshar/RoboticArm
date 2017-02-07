@@ -1,6 +1,5 @@
----
-title: F.I.M.P
----
+F.I.M.P. Project
+================
 
 Project members: Tanav Sharma, Alay Lad, Hennok Tadeese
 
@@ -87,13 +86,13 @@ between the flex sensor, mobile app, and robotic arm.
 Table of Contents
 =================
 
-[Declaration of Joint Authorship ](#_Toc473019556)
+[Declaration of Joint Authorship](#_Toc473019556)
 
-[Approved Proposal ](#_Toc473019557)
+[Approved Proposal](#_Toc473019557)
 
-[Abstract ](#_Toc473019558)
+[Abstract](#_Toc473019558)
 
-[1. Introduction. ](#_Toc473019559)
+[1. Introduction.](#_Toc473019559)
 
 [1.1 Technical Problem](#_Toc473019560)
 
@@ -105,7 +104,7 @@ Table of Contents
 
 [2.1 Problem](#_Toc473019565)
 
-[2.2 Rationale behind Project ](#_Toc473019566)
+[2.2 Rationale behind Project](#_Toc473019566)
 
 [2.3 Project Scope](#_Toc473019567)
 
@@ -113,7 +112,7 @@ Table of Contents
 
 [2.4.1 Database Breakdown](#_Toc473019569)
 
-[2.4.2 Application Breakdown ](#_Toc473019570)
+[2.4.2 Application Breakdown](#_Toc473019570)
 
 [2.4.3 Hardware Breakdown](#_Toc473019571)
 
@@ -127,8 +126,10 @@ Table of Contents
 
  
 
-1. Introduction 
-================
+ 
+
+1. Introduction
+===============
 
 1.1 Technical Problem
 ---------------------
@@ -173,8 +174,6 @@ Table of Contents
 -----------------
 
 2.4 Software Requirement Specifications
-
----------------------------------------
 
 ### 2.4.1 Database Breakdown
 
@@ -251,8 +250,8 @@ Hennok Tadesse with some help from Tanav Sharma.
 
 2.4.3 Hardware Breakdown
 
-**ROBOTIC ARM**  
-  
+**ROBOTIC ARM**
+
 FIMP project aims to bring a simple Robot Arm well within the reach and budget
 of the average educator, student, parent or child. The design brief we set out
 with was to build a full robot arm kit with standard low cost screws, low cost
