@@ -8,17 +8,16 @@ Project members: Tanav Sharma, Alay Lad, Hennok Tadeese
 Declaration of Joint Authorship
 ===============================
 
-The F.I.M.P. robotic arm project is a joint effort in the creation of this
-project. The three members of the group are Hennok Tadesse, Tanav Sharma, and
-Alay Lad and the disturbed of work was given equally. The responsibilities for
-Hennok Tadesse is to design and create the main features and functionality of
-the mobile application with some help from Tanav Sharma with implementing some
-features like the login screen and user logs. The responsibilities for Tanav
-Sharma is to create and maintain a database by creating the correct tables and
-implementing it into the project. The responsibilities of Alay Lad is to work
-with the robotic arm and flex sensors to make sure that movement of the robotic
-arm is possible. Test and debugging is done by all team members and overall help
-and sources are linked in the reference section of this report.
+The F.I.M.P. robotic arm project consist of three group members (Hennok Tadesse,
+Tanav Sharma, and Alay Lad) and is a joint effort on the completion of the
+project. The work for the project has been divided equal among the group member.
+Alay Lad has worked on the hardware aspect of the project; which include working
+with the flex sensor, creating the PCB’s, and working with the servo motors for
+the robotic arm. Hennok Tadesse has worked on the design and functionality of
+the mobile application. Tanav Sharma has worked on the in terms of setting it
+up, connecting it with the app and maintaining it. Testing and maintenance for
+the hardware and software has been tested by all three members equally and all
+project updates and changes have been checked and approved by all members.
 
 Approved Proposal
 =================
@@ -70,18 +69,21 @@ Abstract
 
 The purpose of the fully innovated microprocessor (F.I.M.P.) project is to use
 and control robotic arm equipment from a safer environment to lower the risk of
-work place injuries. The technical report will be about the robotic arm project
-and the main components and features of the project. The components of the
-project revolve around three key components: the MeArm robotic arm, the flex
-sensors, and the mobile application. The MeArm robotic arm is made up of acrylic
-part and four servo motors. The flex sensors are used to move the motors with
-the pressure of bending the sensor. The mobile application is another way of
-controlling the robotic arm along with other features such as individual user
-logins and usage tracking to track user’s usage of the app. Along with the three
-components, a Raspberry Pi 3 will be used as the middle point of communication
-between the flex sensor, mobile app, and robotic arm.
-
- 
+work place injuries. The technical report will go over the way the Fully
+Innovated Micro Processor(F.I.M.P.) robotic arm project works and the main
+components and features of the project. Components such as the flex sensors,
+mobile app, and the robotic arm will all be explained in great detail. The four
+flex sensors will be attached to a glove that will control the robotic arm with
+pressure from the user’s fingers. The mobile app will also be used to control
+the robotic arm but with four sliding bars instead of a sensor. The mobile app
+will include features such as individual users that can login to an account and
+store previous usage of the application. The robotic arm will consist of acrylic
+parts and four micro servo motors that move each joint of the robotic arm. The
+robotic arm is then connected to a Raspberry Pi 3 that will be the middle point
+that will control the robotic arm whether its from the flex sensors or the
+mobile app. These three key components are the main focus of the technical
+report because it will go over the basic workings of the project and give users
+the full understanding of this project. Reading this technical
 
 Table of Contents
 =================
@@ -122,7 +124,7 @@ Table of Contents
 
 [5. Appendices](#_Toc473019574)
 
-6. References
+1.  References
 
  
 
