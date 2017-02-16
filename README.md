@@ -83,7 +83,7 @@ robotic arm is then connected to a Raspberry Pi 3 that will be the middle point
 that will control the robotic arm whether its from the flex sensors or the
 mobile app. These three key components are the main focus of the technical
 report because it will go over the basic workings of the project and give users
-the full understanding of this project. Reading this technical
+the full understanding of this project.
 
 Table of Contents
 =================
