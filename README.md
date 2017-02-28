@@ -10,11 +10,11 @@ Declaration of Joint Authorship
 
 The F.I.M.P. robotic arm project consist of three group members (Hennok Tadesse,
 Tanav Sharma, and Alay Lad) and is a joint effort on the completion of the
-project. The work for the project has been divided equal among the group member.
-Alay Lad has worked on the hardware aspect of the project; which include working
-with the flex sensor, creating the PCB’s, and working with the servo motors for
+project. The work for the project has been divided equally among the group members.
+Alay Lad has worked on the hardware aspect of the project; which includes working
+with the flex sensors, creating the PCB’s, and working with the servo motors for
 the robotic arm. Hennok Tadesse has worked on the design and functionality of
-the mobile application. Tanav Sharma has worked on the in terms of setting it
+the mobile application. Tanav Sharma has worked on the database in terms of setting it
 up, connecting it with the app and maintaining it. Testing and maintenance for
 the hardware and software has been tested by all three members equally and all
 project updates and changes have been checked and approved by all members.
@@ -24,11 +24,11 @@ Approved Proposal
 
 Submission Date, 2016
 
-*Proposal for the development of Project Name*
+*Proposal for the development of Robotic Arm*
 
 Prepared by Tanav, Alay, and Hennok  
 *Computer Engineering Technology Student*  
-Username.github.io
+github.com/hennok129/RoboticArm
 
 **Executive Summary**
 
